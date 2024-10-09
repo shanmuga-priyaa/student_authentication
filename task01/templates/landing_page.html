@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Welcome to the Student Management System</h1>
+        <div class="mt-4">
+            <a href="/admin/" class="btn btn-primary">Admin Login</a>
+            <a href="{% url 'student_login' %}" class="btn btn-secondary">Student Login</a>
+            <a href="{% url 'student_signup' %}" class="btn btn-success">Student Signup</a>
+        </div>
+    </div>
+</body>
+</html>
